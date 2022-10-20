@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Contact Email</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="Marco Andrey Diseñador Grafico">
+  <link href="assets/img/logo.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Recursos CSS Files -->
+  <link href="assets/recursos/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/recursos/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/recursos/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/recursos/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/recursos/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/recursos/venobox/venobox.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <main id="main">
+
+    <!-- ======= #Main ======= -->
+
+
+    <!-- ======= Contact-Form ======= -->
+
+    <section id="contact-form" class="contact-form">
+      <div class="container">
+
+
+        <div class="section-title">
+          <h2>Email</h2>
+          <p>Contact Email</p>
+        </div>
+
+
+        <form action="php/contact.php" method="post" role="form" class="php-email-form mt-4">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4"
+                data-msg="Por favor, introduzca al menos 4 caracteres" />
+              <div class="validate"></div>
+            </div>
+
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Tu Email" data-rule="email"
+                data-msg="Por favor, introduzca un correo electrónico válido" />
+              <div class="validate"></div>
+            </div>
+          </div>
+
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto"
+              data-rule="minlen:4" data-msg="Por favor, introduzca al menos 8 caracteres del tema" />
+            <div class="validate"></div>
+          </div>
+
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" data-rule="required"
+              data-msg="Por favor, escribe algo para nosotros." placeholder="Mensaje"></textarea>
+            <div class="validate"></div>
+          </div>
+
+          <div class="mb-3">
+            <div class="loading">Loading.</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Su mensaje ha sido enviado. Gracias por escribir!!</div>
+          </div>
+
+          <div class="text-center"><button type="submit">Enviar</button></div>
+        </form>
+
+      </div>
+    </section><!-- ======= End Contact-Form ======= -->
+
+
+
+  </main>
+
+  <div class="credits">
+    Design by Marco Andrey <a href="#">Graphic Designer</a>
+
+  </div>
+
+  <!-- Recursos JS Files -->
+  <script src="assets/recursos/jquery/jquery.min.js"></script>
+  <script src="assets/recursos/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/recursos/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/recursos/php-email-form/validate.js"></script>
+  <script src="assets/recursos/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/recursos/counterup/counterup.min.js"></script>
+  <script src="assets/recursos/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/recursos/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/recursos/venobox/venobox.min.js"></script>
+
+
+
+</body>
+
+</html>
